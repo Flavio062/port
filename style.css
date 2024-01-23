@@ -301,7 +301,7 @@ header button {
 
 #prev-button,
 #next-button {
-
+display: none;
     width: 30px;
     height: 30px;
     border: none;
@@ -350,13 +350,14 @@ header button {
     color: black;
     width: 60%;
     align-items: center;
-    margin: 16px auto;
+    margin: 26px auto;
     height: 500px;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-style: normal;
     font-size: 17px;
     border-radius: 40px;
+    padding: 20px;
 
 
 
@@ -365,7 +366,9 @@ header button {
 .container-sobre img {
     border-radius: 50%;
     width:170px;
-    margin-left: 40px;
+    margin-left: 20px;
+    
+    
     
     
    
@@ -387,6 +390,7 @@ header button {
 
 
 .text-sobremim {
+    margin-left: 250px;
     color: black;
     text-align: left;
     display: flex;
@@ -396,6 +400,7 @@ header button {
     font-weight: <weight>;
     font-style: normal;
     font-size: 20px;
+    
     
 
 
@@ -411,6 +416,7 @@ header button {
 .redes img {
     width: 30px;
     margin-top: 20px;
+    margin-left: 20px;
 }
 
 /* fim quarta parte-sobremim*/ 
