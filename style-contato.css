@@ -150,11 +150,33 @@ body{
     }
 
     .contato{
-        width: 250px;
+        width: 60vw;
+        height: 78vh;
+        align-items: center;
     }
 
     .divisa{
         display: none;
+    }
+    .redes{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contato button{
+        width: 40vw;
+    }
+
+    .email-co{
+        width: 36.8vw;
+        font-size: 14px;
+    }
+
+    .voltar button{
+        width: 6rem;
+        height: 6rem;
     }
 
 
