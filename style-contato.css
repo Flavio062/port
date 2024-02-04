@@ -142,3 +142,20 @@ body{
     position: relative;
     margin-bottom: px;
 }
+
+@media screen and (max-width: 1050px){
+
+    .msg{
+        display: none;
+    }
+
+    .contato{
+        width: 250px;
+    }
+
+    .divisa{
+        display: none;
+    }
+
+
+}
