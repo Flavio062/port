@@ -1,0 +1,114 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+    
+  
+}
+
+.container{
+    background-color: black;
+    width: 89%;
+    height: 90%;
+    border: 2px black solid ;
+    background: rgba(0, 0, 0, 0.819);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.msg{
+    width: 500px;
+}
+
+#img-perfil{
+    width: 170px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.aspas{
+    width: 50px;
+    margin-bottom: 10px;
+
+}
+
+.aspas1{
+    width: 50px;
+    transform: rotate(180deg);
+    margin-top: 10px;
+    margin-left: 400px;
+}
+
+.msg p{
+    color: white;
+    padding: 20px;
+    font-size: 18px;
+}
+
+
+/* devisa */
+
+
+.divisa{
+    background-color: aliceblue;
+    width: 1px;
+    height: 90vh;
+   position: relative;
+   right: 60px;
+}
+
+/* contato */
+
+.contato{
+    width: 300px;
+    height: 70vh;
+    background-color: rgb(64, 64, 64);
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    justify-items: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contato img{
+    width: 40px;
+}
+
+
+.redes{
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+
+}
+
+.contato button{
+    background-color: transparent;
+    border: 1px solid white;
+    width: 200px;
+    color: white;
+    border-radius: 5px;
+    padding: 12px 0px 12px 0px;
+    cursor: pointer;
+}
+
+.emails{
+    cursor: cell;
+}
